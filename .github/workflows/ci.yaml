@@ -55,7 +55,7 @@ jobs:
         files: keycloak-theme.jar
         draft: false
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
   docker:
     runs-on: ubuntu-latest
